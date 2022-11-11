@@ -28,5 +28,3 @@ storage: Kingston KC3000 1.024 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
 gpu: XFX Speedster SWFT 319 Radeon RX 6900 XT 16 GB Video Card
 case: NZXT H7 Flow ATX Mid Tower Case
 psu: FSP Group Hydro G Pro 1000 W 80+ Gold Certified Fully Modular ATX Power Supply
-
-123
