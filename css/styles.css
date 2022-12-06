@@ -3,8 +3,14 @@
     text-align: center;
 }
 
-.nav-link{
-    font-size: 5em;
+.navbar li{
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+.navbar img {
+    width: 50%;
+    height: 50%;
 }
 
 
@@ -16,3 +22,4 @@
     background-position: center;
     background-repeat: no-repeat;
 }
+
