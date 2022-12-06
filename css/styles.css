@@ -1,8 +1,18 @@
-.brayden-subpage-main{
+.subpage-biography-brayden{
     display: block;
     text-align: center;
 }
 
 .nav-link{
     font-size: 5em;
+}
+
+
+
+
+.carousel-image{
+    height: 50vh;
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
 }
