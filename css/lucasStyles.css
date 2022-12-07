@@ -1,0 +1,47 @@
+.navbar li{
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+.navbar img {
+    width: 80%;
+    height: 80%;
+}
+
+.bg-light-dark {
+    Background-color: rgb(201, 209, 223) ; 
+}
+
+
+
+
+.lucas-two p {
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+/* Tablet Display up to desktop */
+@media (min-width: 768px) {  
+
+.lucas-main-div {
+    display: grid;
+    grid-template-columns: auto, auto;
+    gap: 10px;
+}
+
+.lucas-one {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.lucas-two {
+    grid-column-start: 2;
+    grid-column-end:  2;
+    font-size: 1.5em;
+}
+
+}
