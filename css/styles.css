@@ -25,6 +25,19 @@
     font-family: "Ubuntu";
     font-size: 1.5em;
     font-weight: bold;
+    background-color:azure;
+}
+
+/* Styles for contact us page */
+
+.form-title  {
+    Text-align: center;
+}
+
+.form  {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
     padding: 0.5%;
 }
 
@@ -38,3 +51,23 @@
     background-color: #fff;
     padding: 2.5%;
 }
+
+/* Main Photo Grid Style */
+.photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main-grid-object{
+    text-align: center;
+    font-family: "Ubuntu:"
+}
+
+.main-grid-object:first-child{
+    margin-left: 50%;
+}
+
+.main-grid-object:last-child{
+    margin-right: 50%;
+}
+
