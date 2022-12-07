@@ -7,7 +7,7 @@
     Background-color: rgb(201, 209, 223) ; 
 }
 
-img  {
+.profile  {
     display: none;
 }
 
@@ -21,7 +21,7 @@ h2, p  {
     text-align: center;
 }
 
-img {
+.profile {
     padding: 10%;
     display: block;
     width: 370px;
@@ -38,7 +38,7 @@ img {
     text-align: center;
 }
 
-img  {
+.profile  {
     padding: 10%;
     display: block;
     width: 570px;
