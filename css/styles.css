@@ -27,3 +27,15 @@
     font-weight: bold;
     background-color:azure;
 }
+
+/* Styles for contact us page */
+
+.form-title  {
+    Text-align: center;
+}
+
+.form  {
+    display: block;
+    padding-left: 15%;
+    padding-right: 15%;
+}
