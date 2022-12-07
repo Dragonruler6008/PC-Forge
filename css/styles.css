@@ -51,3 +51,23 @@
     background-color: #fff;
     padding: 2.5%;
 }
+
+/* Main Photo Grid Style */
+.photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.main-grid-object{
+    text-align: center;
+    font-family: "Ubuntu:"
+}
+
+.main-grid-object:first-child{
+    margin-left: 50%;
+}
+
+.main-grid-object:last-child{
+    margin-right: 50%;
+}
+
