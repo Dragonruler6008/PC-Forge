@@ -25,3 +25,36 @@
     display: block;
     text-align: center;
 }
+
+
+
+.lucas-two p {
+    font-size: 1.5em;
+}
+
+
+
+
+
+
+/* Tablet Display up to desktop */
+@media (min-width: 768px) {  
+
+.lucas-main-div {
+    display: grid;
+    grid-template-columns: auto, auto;
+    gap: 10px;
+}
+
+.lucas-one {
+    grid-column-start: 1;
+    grid-column-end: 1;
+}
+
+.lucas-two {
+    grid-column-start: 2;
+    grid-column-end:  2;
+    font-size: 1.5em;
+}
+
+}
