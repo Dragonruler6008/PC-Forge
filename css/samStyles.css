@@ -1,0 +1,47 @@
+.title {
+ /*  background-image: url(../cimage/car-img_2.jpg); 
+    background-size: cover;
+    background-position: center; */
+    height: 150px;
+    padding-left: 3%;
+    Background-color: rgb(201, 209, 223) ; 
+}
+
+img  {
+    display: none;
+}
+
+h2, p  {
+    padding-left: 5%;
+}
+
+@media screen and (min-width: 742px), print {
+
+.title  {
+    text-align: center;
+}
+
+img {
+    padding: 10%;
+    display: block;
+    width: 370px;
+    height: 472px;
+}
+
+}
+
+/*Desktop media query*/
+@media screen and (min-width: 1280px), print {
+
+.title  {
+    height: 250px;
+    text-align: center;
+}
+
+img  {
+    padding: 10%;
+    display: block;
+    width: 570px;
+    height: 672px;
+}
+}
