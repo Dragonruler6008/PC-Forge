@@ -20,8 +20,10 @@
 
 
 
-
-.subpage-biography-brayden{
-    display: block;
+.index-welcome, .index-welcome h3{
     text-align: center;
+    font-family: "Saira-Semi-Condensed";
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color:azure;
 }
