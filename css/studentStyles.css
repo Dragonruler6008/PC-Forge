@@ -6,7 +6,16 @@
     Height: 250px;
     padding-top: 5%;
 }
+main { 
+  background-color: black;
+}
 
+/* Style for carousel */
+#carouselSidebar  {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
 
 /*Style for intro */
 

@@ -7,6 +7,46 @@
     padding-top: 5%;
 }
 
+/* Styles for carousel */
+#carouselSidebar1  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar1  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+#carouselSidebar2  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar2  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+#carouselSidebar3  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar3  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
 
 /*Style for intro */
 
