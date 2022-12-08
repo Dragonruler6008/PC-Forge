@@ -32,13 +32,16 @@
 
 .form-title  {
     Text-align: center;
+    padding-left: 6%;
+    padding-right: 5%;
 }
 
 .form  {
     display: block;
-    padding-left: 15%;
-    padding-right: 15%;
     padding: 0.5%;
+    width: 60%;
+    margin: auto auto auto auto;
+    background-color:rgba(210, 215, 225, 0.75);
 }
 
 .index-welcome{
