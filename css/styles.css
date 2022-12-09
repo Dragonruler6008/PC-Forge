@@ -69,11 +69,25 @@
 }
 
 .main-grid-object:first-child{
-    margin-left: 50%;
+    margin-left: 30%;
 }
 
 .main-grid-object:last-child{
-    margin-right: 50%;
+    margin-right: 30%;
+}
+
+.main-grid-object img{
+    height: 300px;
+    width: 300px;
+}
+
+.main-grid-object img:hover{
+    transform: scale(110%);
+}
+
+.main-grid-captions{
+    font-size: 3em;
+    text-align: center;
 }
 
 
