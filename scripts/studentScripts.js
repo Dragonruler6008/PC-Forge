@@ -1,4 +1,4 @@
-document.querySelectorAll('.container img').forEach(image =>{
+document.querySelectorAll('.sidebar img').forEach(image =>{
     image.onclick = () => {
         document.querySelector('.popup-image').style.display = 'block';
         document.querySelector('.popup-image img').src = image.getAttribute('src');

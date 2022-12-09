@@ -165,4 +165,8 @@ img {
         position: sticky;
         top: 0;
       }
+
+      table {
+        text-align: center;
+      }
 }
