@@ -58,6 +58,7 @@
     text-align: center;
 }
 
+
 /* Style rules for img */
 img {
     width: 400px;
@@ -99,6 +100,7 @@ img {
     object-fit:cover;
   }
   
+  
   /*Desktop media query */
   @media screen and (min-width: 1009px), print {
 
@@ -117,8 +119,10 @@ img {
         height: auto;
         padding-left: 15%;
         padding-right: 10%;
+        padding-bottom: 20%;
         background-color: white;
       }
+      
     
       .main:first-child  {
         padding-top: 6%;
@@ -128,12 +132,14 @@ img {
         height: 75vh;
       }
       
+      
     
       .sidebar {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
       }
+      
     
 }
 
@@ -141,14 +147,15 @@ img {
 @media screen and (min-width: 785px), print {
 
     .wrapper {
-        display: flex;
+        display: flex; 
       }
+      
     
       .main {
         width: 60%;
-        height: 125vh;
-    
+        height: auto;
         background-color: white;
+        padding-bottom: 20%;
       }
     
       .main:first-child  {

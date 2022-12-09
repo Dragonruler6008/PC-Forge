@@ -7,7 +7,10 @@
     Background-color: rgb(201, 209, 223) ; 
 }
 
-.sam {
+dl, h3 {
+    padding-left: 5%;
+}
+#desktop img  {
     display: none;
 }
 
@@ -21,7 +24,7 @@ h2, p  {
     text-align: center;
 }
 
-.sam {
+#desktop img {
     padding: 10%;
     display: block;
     width: 370px;
@@ -38,7 +41,7 @@ h2, p  {
     text-align: center;
 }
 
-.sam {
+#desktop img  {
     padding: 10%;
     display: block;
     width: 570px;
