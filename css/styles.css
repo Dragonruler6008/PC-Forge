@@ -79,15 +79,19 @@
 .main-grid-object img{
     height: 300px;
     width: 300px;
+    border-radius: 10px;
 }
 
 .main-grid-object img:hover{
-    transform: scale(110%);
+    transform: scale(105%);
+    box-shadow: 5px 5px 10px #000;
 }
 
 .main-grid-captions{
     font-size: 3em;
     text-align: center;
+    font-family: "Ubuntu";
+    color: rgb(2, 12, 26, 0.85);
 }
 
 
