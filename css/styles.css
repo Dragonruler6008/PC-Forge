@@ -28,7 +28,7 @@
     background-color:azure;
 }
 
-/* Styles for contact us page */
+/* Styles for contact us page -------------------------*/
 
 .form-title  {
     Text-align: center;
@@ -43,6 +43,8 @@
     margin: auto auto auto auto;
 }
 
+
+/* Style Rules for Index.html ------------------------*/
 .index-welcome{
     background-color: rgba(210, 215, 225, 0.75);
     padding-top: 2%;
@@ -63,7 +65,7 @@
 
 .main-grid-object{
     text-align: center;
-    font-family: "Ubuntu:"
+    font-family: "Ubuntu:";
 }
 
 .main-grid-object:first-child{
