@@ -10,7 +10,7 @@ case: Fractal Design Focus G ATX Mid Tower Case
 psu: Cooler Master MasterWatt 550 550 W 80+ Bronze Certified Semi-modular ATX Power Supply
 
 MID-TIER
-cpu: AMD Ryzen 5 5600X 3.7 GHz 6-Core Processor
+cpu: AMD Ryzen 5 5800X3D 3.7 GHz 6-Core Processor
 cpu fan: ARCTIC Freezer 34 eSports DUO CPU Cooler
 mobo: ASRock B550 Phantom Gaming 4 ATX AM4 Motherboard
 ram: G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3600 CL16 Memory
@@ -25,6 +25,6 @@ cpu fan: be quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler
 mobo: Asus PRIME X670-P ATX AM5 Motherboard
 ram: G.Skill Flare X5 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory
 storage: Kingston KC3000 1.024 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
-gpu: XFX Speedster SWFT 319 Radeon RX 6900 XT 16 GB Video Card
+gpu: Nvidia RTX 4080 16GB
 case: NZXT H7 Flow ATX Mid Tower Case
 psu: FSP Group Hydro G Pro 1000 W 80+ Gold Certified Fully Modular ATX Power Supply

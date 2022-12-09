@@ -100,6 +100,11 @@ img {
     width:595px;
     object-fit:cover;
   }
+
+  /* Style Ruels for Buttons */
+  .bg-rainbow {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  }
   
   
   /*Desktop media query */
