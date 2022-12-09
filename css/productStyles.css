@@ -1,5 +1,4 @@
 /* Style for jumbotron */
-
 .title  {
   Background-color: black; 
     text-align: center;
@@ -47,9 +46,7 @@
   height: 400px;
 }
 
-
 /*Style for intro */
-
 .intro  {
     padding-left: 15%;
     padding-right: 17%;
@@ -58,7 +55,6 @@
     text-align: center;
     background-color: white;
 }
-
 
 /* Style rules for img */
 img {
@@ -81,7 +77,6 @@ img {
     z-index: 100%;
     display: none;
   }
-  
 
   .popup-image span  {
     position: absolute;
@@ -92,7 +87,6 @@ img {
     z-index: 100;
   }
   
-
   .popup-image img {
     position: absolute;
     top: 50%; left:50%;
@@ -101,15 +95,13 @@ img {
     object-fit:cover;
   }
 
-  /* Style Ruels for Buttons */
+  /* Style Rules for Rainbow Buttons because why not*/
   .bg-rainbow {
     background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
   }
   
-  
   /*Desktop media query */
   @media screen and (min-width: 1009px), print {
-
 
     .title  {
         height: 350px;
@@ -130,7 +122,6 @@ img {
         background-color: white; 
       }
       
-    
       .main:first-child  {
         padding-top: 6%;
       }
@@ -139,15 +130,11 @@ img {
         height: 75vh;
       }
       
-      
-    
       .sidebar {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
       }
-      
-    
 }
 
 /*Tablet media query */
@@ -158,7 +145,6 @@ img {
         background-color:white; 
       }
       
-    
       .main {
         width: 60%;
         height: auto;
@@ -174,12 +160,9 @@ img {
         height: 75vh;
       }
       
-    
       .sidebar {
         position: -webkit-sticky;
         position: sticky;
         top: 0;
       }
-    
 }
-
