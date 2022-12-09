@@ -51,13 +51,6 @@
     padding-bottom: 2%;
 }
 
-.index-content-header{ 
-    background-color: rgba(210, 215, 225, 0.75);
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 10%;
-}
-
 .whitespace{
     background-color: #fff;
     padding: 2.5%;
@@ -101,6 +94,56 @@
     color: rgb(2, 12, 26, 0.85);
 }
 
+/* Index Content */
+.index-main-content{
+    display: block;
+}
+
+.index-content-header{ 
+    background-color: rgba(210, 215, 225, 0.75);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+/* OFFICE */
+.index-office-content{
+    padding: 0;
+}
+
+.office-content-text{
+    padding: 0;
+}
+
+.office-content-vid{
+    padding: 0;
+}
+
+/* GAMING */
+.index-gaming-content{
+    padding: 0;
+}
+
+.gaming-content-text{
+    padding: 0;
+}
+
+.gaming-content-vid{
+    padding: 0;
+}
+
+/* STUDENT */
+.index-student-content{
+    padding: 0;
+}
+
+.student-content-text{
+    padding: 0;
+}
+
+.student-content-vid{
+    padding: 0;
+}
 
 
 
