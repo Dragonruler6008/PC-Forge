@@ -32,8 +32,8 @@
 
 .form-title  {
     Text-align: center;
-    padding-left: 6%;
-    padding-right: 5%;
+    padding-left: 20%;
+    padding-right: 20%;
 }
 
 .form  {
@@ -41,7 +41,6 @@
     padding: 0.5%;
     width: 60%;
     margin: auto auto auto auto;
-    background-color:rgba(210, 215, 225, 0.75);
 }
 
 .index-welcome{
