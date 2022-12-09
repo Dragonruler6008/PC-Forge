@@ -166,7 +166,8 @@ img {
         top: 0;
       }
 
-      table {
-        text-align: center;
-      }
+      .table {
+        margin: auto;
+        width: 50% !important; 
+     }
 }
