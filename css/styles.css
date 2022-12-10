@@ -97,6 +97,7 @@
 /* Index Content */
 .index-main-content{
     display: block;
+    padding: 3%;
 }
 
 .index-content-header{ 
@@ -108,7 +109,9 @@
 
 /* OFFICE */
 .index-office-content{
-    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
 }
 
 .office-content-text{
@@ -121,7 +124,9 @@
 
 /* GAMING */
 .index-gaming-content{
-    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
 }
 
 .gaming-content-text{
@@ -134,7 +139,9 @@
 
 /* STUDENT */
 .index-student-content{
-    padding: 0;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
 }
 
 .student-content-text{
