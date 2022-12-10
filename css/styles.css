@@ -8,17 +8,12 @@
     height: 80%;
 }
 
-
-
-
 .carousel-image{
     height: 50vh;
     background-size: 75%;
     background-position: center;
     background-repeat: no-repeat;
 }
-
-
 
 .index-welcome, .index-welcome h3{
     text-align: center;
@@ -27,6 +22,7 @@
     font-weight: bold;
     background-color:azure;
 }
+
 
 /* Styles for contact us page -------------------------*/
 
@@ -158,3 +154,47 @@
 
 
 
+
+
+
+/* MEDIA QUERY FOR TABLET VIEW --------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 800px){
+    .photo-grid{
+        display: block;
+    }
+
+    .navbar li{
+        font-size: 2em;
+        padding: none;
+    }
+    
+    .navbar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carousel-image{
+        height: 50vh;
+        background-size: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .index-welcome, .index-welcome h3{
+        text-align: center;
+        font-family: "Ubuntu";
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color:azure;
+    }
+}
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE VIEW --------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 425px){
+
+}
