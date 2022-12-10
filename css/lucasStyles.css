@@ -20,7 +20,7 @@ main {
     text-align: center;
 }
 
-#desktop #dl, h3 {
+#desktop dl, h3 {
     padding-left: 5%;
 }
 #desktop img  {
@@ -36,7 +36,11 @@ main {
     font-size: 1.5em;
 }
 
-#desktop h2, p  {
+#desktop h2 {
+    padding-left: 5%;
+}
+
+#desktop p {
     padding-left: 5%;
 }
 
@@ -47,19 +51,19 @@ main {
 /* Tablet Display up to desktop */
 @media (min-width: 768px) {  
 
-#desktop {
-    text-align: unset;
-    font-size: 1.5em;
-}
+    #desktop {
+        text-align: unset;
+        font-size: 1.5em;
+    }
 
-#desktop ul {
-    list-style-type: disc;
-}
+    #desktop ul {
+        list-style-type: disc;
+    }
 
-#desktop img {
-    display: block;
-    padding-right: 3%;
-    padding-bottom: 3%;
-}
+    #desktop img {
+        display: block;
+        padding-right: 3%;
+        padding-bottom: 3%;
+    }
 
 }
