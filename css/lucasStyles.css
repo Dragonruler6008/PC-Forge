@@ -1,3 +1,7 @@
+main {
+    font-family: "Ubuntu";
+}
+
 .navbar li{
     font-size: 2em;
     padding-right: 10px;
@@ -12,52 +16,50 @@
     Background-color: rgb(201, 209, 223) ; 
 }
 
-
-.lucas-one {
-    padding: 2%;
-    margin: auto;
-    display: flex;
-    justify-content: center;
-}
-
-.lucas-two {
+.title {
     text-align: center;
 }
 
-.lucas-two p {
+#desktop #dl, h3 {
+    padding-left: 5%;
+}
+#desktop img  {
+    display: none;
+}
+
+#desktop ul{
+    list-style-type: none;
+}
+
+#desktop {
+    text-align: center;
     font-size: 1.5em;
 }
 
+#desktop h2, p  {
+    padding-left: 5%;
+}
 
-
-
-
+#desktop li {
+    margin-left: 3%;
+}
 
 /* Tablet Display up to desktop */
 @media (min-width: 768px) {  
 
-.lucas-main-div {
-    display: grid;
-    grid-template-columns: auto, auto;
-    gap: 10px;
-}
-
-.lucas-one {
-    grid-column-start: 1;
-    grid-column-end: 1;
-    padding-left: 3%;
-    margin-bottom: 4%;
-}
-
-.lucas-two {
-    grid-column-start: 2;
-    grid-column-end:  2;
+#desktop {
+    text-align: unset;
     font-size: 1.5em;
-    padding-top: 4%;
 }
 
-.title {
-    text-align: center;
+#desktop ul {
+    list-style-type: disc;
+}
+
+#desktop img {
+    display: block;
+    padding-right: 3%;
+    padding-bottom: 3%;
 }
 
 }
