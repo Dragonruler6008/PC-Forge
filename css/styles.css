@@ -160,7 +160,7 @@
 /* MEDIA QUERY FOR TABLET VIEW --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 800px){
     .photo-grid{
-        display: block;
+        display: inline;
     }
 
     .navbar li{
@@ -187,6 +187,90 @@
         font-weight: bold;
         background-color:azure;
     }
+
+    .main-grid-object{
+        font-family: "Ubuntu:";
+    }
+
+    .main-grid-object:first-child{
+        margin-left: 0;
+    }
+
+    .main-grid-object:last-child{
+        margin-right: 0;
+    }
+
+    .main-grid-object img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .main-grid-object img:hover{
+        transform: scale(105%);
+        box-shadow: 5px 5px 10px #000;
+    }
+
+    .main-grid-captions{
+        font-size: 2.5em;
+        text-align: center;
+        font-family: "Ubuntu";
+        color: rgb(2, 12, 26, 0.85);
+    }
+
+    /* OFFICE */
+    .index-office-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .office-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .office-content-vid{
+        padding: 0%;
+    }
+
+    /* GAMING */
+    .index-gaming-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .gaming-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .gaming-content-vid{
+        padding: 0%;
+    }
+
+    /* STUDENT */
+    .index-student-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .student-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .student-content-vid{
+        padding: 0;
+    }
+
+    .content-text-desc{
+        display: none;
+    }
+
+
 }
 
 
