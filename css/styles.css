@@ -115,7 +115,8 @@
 }
 
 .office-content-text{
-    padding: 0;
+    margin-top: 20%;
+    text-align: justify;
 }
 
 .office-content-vid{
@@ -130,7 +131,8 @@
 }
 
 .gaming-content-text{
-    padding: 0;
+    margin-top: 20%;
+    text-align: justify;
 }
 
 .gaming-content-vid{
@@ -145,7 +147,8 @@
 }
 
 .student-content-text{
-    padding: 0;
+    margin-top: 20%;
+    text-align: justify;
 }
 
 .student-content-vid{
