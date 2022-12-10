@@ -38,3 +38,7 @@ main{
   width: 100%;
   border-radius: 30px;
 }
+
+.created-by-text-footer{
+  color: #000;
+}
