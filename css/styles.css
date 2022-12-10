@@ -164,8 +164,8 @@
     }
 
     .navbar li{
-        font-size: 2em;
-        padding: none;
+        font-size: 1.5em;
+        padding-right: 20px;
     }
     
     .navbar img {
@@ -270,7 +270,6 @@
         display: none;
     }
 
-
 }
 
 
@@ -280,5 +279,31 @@
 
 /* MEDIA QUERY FOR MOBILE VIEW --------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 425px){
+    .navbar li{
+        font-size: 1em;
+    }
+    
+    .navbar img {
+        width: 50%;
+        height: 50%;
+    }
 
+    /* OFFICE */
+    .index-office-content{
+        display: none;
+    }
+
+    /* GAMING */
+    .index-gaming-content{
+        display: none;
+    }
+
+    /* STUDENT */
+    .index-student-content{
+        display: none;
+    }
+
+    .desktop-tablet-spacers{
+        display: none;
+    }
 }
