@@ -178,7 +178,7 @@ aside {
 
 .hidden {
     opacity: 0;
-    transition: all 3.5s;
+    transition: all 2s;
 }
 
 .show {
