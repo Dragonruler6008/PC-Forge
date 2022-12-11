@@ -164,7 +164,14 @@
     display: none;
 }
 
+.hidden {
+    opacity: 0;
+    transition: all 3.5s;
+}
 
+.show {
+    opacity: 1;
+}
 
 
 
