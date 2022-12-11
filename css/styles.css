@@ -22,7 +22,15 @@
     font-weight: bold;
     background-color:azure;
 }
-
+  
+/* Styles for aside*/
+aside {
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+  }
 
 /* Styles for contact us page -------------------------*/
 
@@ -34,11 +42,15 @@
     font-size: 1.5em;
 }
 
-.form  {
+.form, .bform {
     display: block;
     padding: 0.5%;
     width: 60%;
     margin: auto auto auto auto;
+}
+
+.form:first-child  {
+    padding-top: 5%;
 }
 
 .pad {

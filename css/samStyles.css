@@ -22,6 +22,10 @@ dl, h3 {
     padding-left: 5%;
 }
 
+#desktop {
+    font-family: "Ubuntu";
+}
+
 @media screen and (min-width: 742px), print {
 
 .title  {
