@@ -30,6 +30,8 @@
     Text-align: center;
     padding-left: 20%;
     padding-right: 20%;
+    font-family: "Ubuntu";
+    font-size: 1.5em;
 }
 
 .form  {
@@ -39,6 +41,9 @@
     margin: auto auto auto auto;
 }
 
+.pad {
+    padding-bottom: 1%;
+}
 
 /* Style Rules for Index.html ------------------------*/
 .index-welcome{
@@ -61,7 +66,7 @@
 
 .main-grid-object{
     text-align: center;
-    font-family: "Ubuntu:";
+    font-family: "Ubuntu";
 }
 
 .main-grid-object:first-child{
@@ -195,7 +200,7 @@
     }
 
     .main-grid-object{
-        font-family: "Ubuntu:";
+        font-family: "Ubuntu";
     }
 
     .main-grid-object:first-child{

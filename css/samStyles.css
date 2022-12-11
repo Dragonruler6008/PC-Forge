@@ -14,7 +14,11 @@ dl, h3 {
     display: none;
 }
 
-h2, p  {
+#desktop h2 {
+    padding-left: 5%;
+}
+
+#desktop p {
     padding-left: 5%;
 }
 
