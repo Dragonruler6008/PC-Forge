@@ -56,6 +56,9 @@
     background-color: white;
 }
 
+.main  {
+  padding: 5%;
+}
 /* Style rules for img */
 img {
     width: 400px;

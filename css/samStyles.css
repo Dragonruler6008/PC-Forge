@@ -43,6 +43,7 @@ dl, h3 {
 .title  {
     height: 250px;
     text-align: center;
+    color: black;
 }
 
 #desktop img  {
