@@ -1,0 +1,29 @@
+This file will contain the specs (cpu, gpu, ram, ect.) for the computers in the office category branch
+
+BUDGET
+cpu: Intel Core i3-12100 Processor
+mobo: ASRock B660M Pro RS
+ram: G.Skill Ripjaws V DDR4-3200 2x8GB RAM Kit
+storage: Western Digital Blue SN550 M.2 NVMe SSD
+gpu: none
+case: Deepcool Matrexx 40 mid-tower PC case
+psu: Thermaltake Smart BX1 550W
+
+MID-TIER
+cpu: Intel Core i5-6500
+mobo: Gigabyte GA-B150N Phoenix-WIFI
+ram: ASUS GeForce GTX 750Ti
+storage: 16GB Corsair Vengeance LPX DDR4
+gpu: 2TB Western Digital Blue
+case: Cooler Master N200
+psu: Seasonic S12II 620 BRONZE
+
+HIGH-END
+cpu: AMD Ryzen 5 5600 3.5 GHz 6-Core Processor
+fan: ID-COOLING SE-214-XT 68.2 CFM CPU Cooler
+mobo: Gigabyte B550 AORUS ELITE AX V2 ATX AM4 Motherboard
+ram: G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3600 CL16 Memory
+storage: TEAMGROUP MP34 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive
+gpu: Sapphire NITRO+ Radeon RX 6700 XT 12 GB Video Card
+case: Phanteks Eclipse G360A ATX Mid Tower Case
+psu: Enermax Revolution D.F. 650 W 80+ Gold Certified Fully Modular ATX Power Supply

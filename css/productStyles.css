@@ -1,0 +1,187 @@
+/* Style for jumbotron */
+.title  {
+  Background-color: black; 
+    text-align: center;
+    Height: 250px;
+    padding-top: 5%;
+}
+
+/* Styles for carousel */
+#carouselSidebar1  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar1  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+#carouselSidebar2  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar2  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+#carouselSidebar3  {
+  display: inline-block;
+  width: 400px;
+}
+
+#CarouselSidebar3  .carousel-item img {
+  object-fit: cover;
+  object-position: center;
+  overflow: hidden;
+  width: 400px;
+  height: 400px;
+}
+
+/*Style for intro */
+.intro  {
+    padding-left: 15%;
+    padding-right: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: white;
+}
+
+.main  {
+  padding: 5%;
+}
+/* Style rules for img */
+img {
+    width: 400px;
+    height: 400px;
+}
+
+  /* styles rules for hover and image popup */
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .popup-image  {
+    position: fixed;
+    top:0; left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100%;
+    display: none;
+  }
+
+  .popup-image span  {
+    position: absolute;
+    top:0; right:10px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+  .popup-image img {
+    position: absolute;
+    top: 50%; left:50%;
+    transform: translate(-50%, -50%);
+    width:630px; 
+    height: 630px;
+    object-fit:cover; 
+  }
+
+  /* Style Rules for Rainbow Buttons because why not*/
+  .bg-rainbow {
+    background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+  }
+
+  .created-by-text-footer{
+    color: #000;
+  }
+  
+  /*Desktop media query */
+  @media screen and (min-width: 1009px), print {
+
+    .title  {
+        height: 350px;
+    }
+
+    /*Style rules for sticky images */
+    .wrapper {
+        display: flex;
+        background-color:white;
+      }
+    
+      .main {
+        width: 60%;
+        height: auto;
+        padding-left: 15%;
+        padding-right: 10%;
+        padding-bottom: 20%;
+        background-color: white; 
+      }
+      
+      .main:first-child  {
+        padding-top: 6%;
+      }
+      
+      .sidebar {
+        height: 75vh;
+      }
+      
+      .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+}
+
+/*Tablet media query */
+@media screen and (min-width: 785px), print {
+
+    .wrapper {
+        display: flex;
+        background-color:white; 
+      }
+      
+      .main {
+        width: 60%;
+        height: auto;
+        background-color: white;
+        padding-bottom: 20%;
+      }
+    
+      .main:first-child  {
+        padding-top: 6%;
+      }
+      
+      .sidebar {
+        height: 75vh;
+      }
+      
+      .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+
+      .table {
+        margin: auto;
+        width: 50% !important; 
+     }
+}
+
+@media screen and (max-width: 700px){
+  .office-tablet-desktop{
+    display: none;
+  }
+}

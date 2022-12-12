@@ -1,28 +1,245 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head> 
-        <title>PC Forge</title>
-        <meta charset="utf-8">
-    </head>
-    
-    <body>
 
-        <header>
-            
-        </header>
+<head>
+  <title>PC-Forge</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="css/styles.css">
 
-        <nav>
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/dd9d9c0fd0.js" crossorigin="anonymous"></script>
 
-        </nav>
+  <!--font family-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Silkscreen&family=Ubuntu&display=swap" rel="stylesheet">
 
-        <main>
+</head>
 
-        </main>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html"><img class="rounded-4" src="images/PCF-logo.png"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="office.html">Office</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gaming.html">Gaming</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="student.html">Student</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu">
+                  <!--Needs the ../ to work properly in the future here at least-->
+                  <li><a class="dropdown-item" href="aboutSubpage/lucas.html">Lucas</a></li>
+                  <li><a class="dropdown-item" href="aboutSubpage/samantha.html">Samantha</a></li>
+                  <li><a class="dropdown-item" href="aboutSubpage/brayden.html">Brayden</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact Us</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </header>
 
-        <footer>
+  <main>
+    <div id="carouselMain" class="carousel slide carousel-fade bg-black" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item carousel-image active" style="background-image: url('cimage/car-img_start.jpg');"></div>
+        <div class="carousel-item carousel-image" style="background-image: url('cimage/car-img_2.jpg');"></div>
+        <div class="carousel-item carousel-image" style="background-image: url('cimage/car-img_3.jfif');"></div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselMain" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselMain" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="index-welcome">
+      <h1>Welcome to PC Forge!</h1>
+      <p>The highest quality pre-built computers money can buy!</p>
+    </div>
+    <div class="whitespace"></div>
+    <div class="photo-grid">
+      <figure class="main-grid-object">
+        <a href="office.html"><img src="images/index-redirect-office.jpg"></a>
+        <figcaption class="main-grid-captions">Office</figcaption>
+      </figure>
+      <figure class="main-grid-object">
+        <a href="gaming.html"><img src="images/index-redirect-gaming.jpg"></a>
+        <figcaption class="main-grid-captions">Gaming</figcaption>
+      </figure>
+      <figure class="main-grid-object">
+        <a href="student.html"><img src="images/index-redirect-student.jpg"></a>
+        <figcaption class="main-grid-captions">Student</figcaption>
+      </figure>
+    </div>
+    <div class="whitespace"></div>
+    <div class="index-main-content">
+      <div class="index-content-header">
+        <h1>Looking for a new computer?</h1>
+        <p>PC-Forge will craft exactly what you need!</p>
+      </div>
+      <div class="desktop-tablet-spacers">
+        <div class="whitespace"></div>
+        <hr>
+        <div class="whitespace"></div>
+      </div>
+      <section class="hidden index-office-content">
+        <div class="office-content-text">
+          <h1>Office Computers</h1>
+          <p class="content-text-desc">Whether you are going it alone, or collaborating with your coworkers, you need the right tool for the job. When you choose PC Forge, you not only get one of the highest quality computers on the market, you get something made specifically for you. We take tremendous pride in helping businesses succeed, whether they are big or small. Check out our lineup of incredible builds and get started on those projects today!</p>
+          <p class="tab-text-desc">Find the perfect computer for your office.</p>
+        </div>
+        <div class="office-content-vid">
+          <video height="100%" width="100%" autoplay muted>
+            <source src="videos/index-vid-office.mp4" type="video/mp4">
+            Your browser does not support MP4 :(
+          </video>
+        </div>
+      </section>
+      <div class="desktop-tablet-spacers">
+        <div class="whitespace"></div>
+        <hr>
+        <div class="whitespace"></div>
+      </div>
+      <section class="hidden index-gaming-content">
+        <div class="gaming-content-vid">
+          <video height="100%" width="100%" autoplay muted>
+            <source src="videos/index-vid-gaming.mp4" type="video/mp4">
+            Your browser does not support MP4 :(
+          </video>
+        </div>
+        <div class="gaming-content-text">
+          <h1>Gaming Computers</h1>
+          <p class="content-text-desc">Solo or Coop, Casual or Competitive, with friends, or with the entire world watching, we have exactly what you need to keep the enemy at bay. From stellar performance to beautifully designed custom builds, you can't go wrong with a PC Forge computer. Lose yourself in breathtaking 4K resolution, or even incredible 1080p! No matter what kind of gamer you are, you will find something to write home about. Even if writing isn't your thing!</p>
+          <p class="tab-text-desc">Keep your K/D up in style.</p>
+        </div>
+      </section>
+      <div class="desktop-tablet-spacers">
+        <div class="whitespace"></div>
+        <hr>
+        <div class="whitespace"></div>
+      </div>
+      <section class="hidden index-student-content">
+        <div class="student-content-text">
+          <h1>Student Computers</h1>
+          <p class="content-text-desc">School can be stressful, and one of the biggest complaints we hear is that laptops just don't last long enough to make them worth it, especially when they are bounced around in a backpack all day. Either that, or students can't afford to get a laptop that's good enough to handle their programs. We hear you, and that is why we have teamed up with Google and Lenovo to offer the perfect laptops for college students. Check us out!</p>
+          <p class="tab-text-desc">The perfect tool to enhance your learning.</p>
+        </div>
+        <div class="student-content-vid">
+          <video height="100%" width="100%" autoplay muted>
+            <source src="videos/index-vid-student.mp4" type="video/mp4">
+            Your browser does not support MP4 :(
+          </video>
+        </div>
+      </section>
+      <div class="whitespace"></div>
+      <hr>
+    </div>
+  </main>
 
-        </footer>
+  <footer class="text-center text-white" style="background-color: #f1f1f1;">
+    <p class="created-by-text-footer-index">Page Created By: <a href="aboutSubpage/brayden.html">Brayden Holden</a></p>
+    <!-- Grid container -->
+    <div class="container pt-4">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.facebook.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://twitter.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://accounts.google.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.instagram.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://www.linkedin.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <!-- Github -->
+        <a
+          class="btn btn-link btn-floating btn-lg text-dark m-1"
+          href="https://github.com/"
+          role="button"
+          data-mdb-ripple-color="dark"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-dark" href="index.html">PC-Forge</a>
+      <p class="text-dark">Nav and Footer created by <a class="text-dark" href="aboutSubpage/lucas.html">Lucas Bigler</a></p>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
 
-    </body>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+
+  <script defer src="scripts/scripts.js"></script>
+</body>
 
 </html>

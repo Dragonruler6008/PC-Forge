@@ -1,0 +1,343 @@
+.navbar li{
+    font-size: 2em;
+    padding-right: 10px;
+}
+
+.navbar img {
+    width: 80%;
+    height: 80%;
+}
+
+.carousel-image{
+    height: 50vh;
+    background-size: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.index-welcome, .index-welcome h3{
+    text-align: center;
+    font-family: "Ubuntu";
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color:azure;
+}
+  
+/* Styles for aside*/
+aside {
+    width: 30%;
+    padding-left: 10px;
+    margin-left: 15px;
+    float: right;
+    background-color: lightgray;
+  }
+
+/* Styles for contact us page -------------------------*/
+
+.form-title  {
+    Text-align: center;
+    padding-left: 20%;
+    padding-right: 20%;
+    font-family: "Ubuntu";
+    font-size: 1.5em;
+}
+
+.form, .bform {
+    display: block;
+    padding: 0.5%;
+    width: 60%;
+    margin: auto auto auto auto;
+}
+
+.form:first-child  {
+    padding-top: 5%;
+}
+
+.pad {
+    padding-bottom: 1%;
+}
+
+/* Style Rules for Index.html ------------------------*/
+.index-welcome{
+    background-color: rgba(210, 215, 225, 0.75);
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.whitespace{
+    background-color: #fff;
+    padding: 2.5%;
+}
+
+/* Main Photo Grid Style */
+.photo-grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+}
+
+.main-grid-object{
+    text-align: center;
+    font-family: "Ubuntu";
+}
+
+.main-grid-object:first-child{
+    margin-left: 30%;
+}
+
+.main-grid-object:last-child{
+    margin-right: 30%;
+}
+
+.main-grid-object img{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+.main-grid-object img:hover{
+    transform: scale(105%);
+    box-shadow: 5px 5px 10px #000;
+}
+
+.main-grid-captions{
+    font-size: 3em;
+    text-align: center;
+    font-family: "Ubuntu";
+    color: rgb(2, 12, 26, 0.85);
+}
+
+/* Index Content */
+.index-main-content{
+    display: block;
+    padding: 3%;
+}
+
+.index-content-header{ 
+    background-color: rgba(210, 215, 225, 0.75);
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 10%;
+}
+
+/* OFFICE */
+.index-office-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
+}
+
+.office-content-text{
+    margin-top: 20%;
+    text-align: justify;
+}
+
+.office-content-vid{
+    padding: 0;
+}
+
+/* GAMING */
+.index-gaming-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
+}
+
+.gaming-content-text{
+    margin-top: 20%;
+    text-align: justify;
+}
+
+.gaming-content-vid{
+    padding: 0;
+}
+
+/* STUDENT */
+.index-student-content{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 250px;
+}
+
+.student-content-text{
+    margin-top: 20%;
+    text-align: justify;
+}
+
+.student-content-vid{
+    padding: 0;
+}
+
+.created-by-text-footer-index{
+    color: #000;
+}
+
+.tab-text-desc{
+    display: none;
+}
+
+.hidden {
+    opacity: 0;
+    transition: all 2s;
+}
+
+.show {
+    opacity: 1;
+}
+
+
+
+/* MEDIA QUERY FOR TABLET VIEW --------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 800px){
+    .photo-grid{
+        display: inline;
+    }
+
+    .navbar li{
+        font-size: 1.5em;
+        padding-right: 20px;
+    }
+    
+    .navbar img {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .carousel-image{
+        height: 50vh;
+        background-size: 70%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    
+    .index-welcome, .index-welcome h3{
+        text-align: center;
+        font-family: "Ubuntu";
+        font-size: 1.5em;
+        font-weight: bold;
+        background-color:azure;
+    }
+
+    .main-grid-object{
+        font-family: "Ubuntu";
+    }
+
+    .main-grid-object:first-child{
+        margin-left: 0;
+    }
+
+    .main-grid-object:last-child{
+        margin-right: 0;
+    }
+
+    .main-grid-object img{
+        height: 200px;
+        width: 200px;
+        border-radius: 10px;
+    }
+
+    .main-grid-object img:hover{
+        transform: scale(105%);
+        box-shadow: 5px 5px 10px #000;
+    }
+
+    .main-grid-captions{
+        font-size: 2.5em;
+        text-align: center;
+        font-family: "Ubuntu";
+        color: rgb(2, 12, 26, 0.85);
+    }
+
+    /* OFFICE */
+    .index-office-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .office-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .office-content-vid{
+        padding: 0%;
+    }
+
+    /* GAMING */
+    .index-gaming-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .gaming-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .gaming-content-vid{
+        padding: 0%;
+    }
+
+    /* STUDENT */
+    .index-student-content{
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 100px;
+    }
+
+    .student-content-text{
+        margin-top: 20%;
+        text-align: justify;
+    }
+
+    .student-content-vid{
+        padding: 0;
+    }
+
+    .content-text-desc{
+        display: none;
+    }
+
+    .tab-text-desc{
+        display: block;
+    }
+
+}
+
+
+
+
+
+
+/* MEDIA QUERY FOR MOBILE VIEW --------------------------------------------------------------------------------------------------------------------*/
+@media screen and (max-width: 425px){
+    .navbar li{
+        font-size: 1em;
+    }
+    
+    .navbar img {
+        width: 50%;
+        height: 50%;
+    }
+
+    /* OFFICE */
+    .index-office-content{
+        display: none;
+    }
+
+    /* GAMING */
+    .index-gaming-content{
+        display: none;
+    }
+
+    /* STUDENT */
+    .index-student-content{
+        display: none;
+    }
+
+    .desktop-tablet-spacers{
+        display: none;
+    }
+}

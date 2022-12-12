@@ -1,0 +1,138 @@
+/* Style for jumbotron */
+
+.title  {
+    Background-color: black; 
+    text-align: center;
+    Height: 250px;
+    padding-top: 5%;
+}
+main { 
+  background-color: black;
+}
+
+/* Style for carousel */
+#carouselSidebar  {
+    height: auto;
+    width: auto;
+    overflow: hidden;
+}
+
+/*Style for intro */
+
+.intro  {
+    padding-left: 15%;
+    padding-right: 17%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+/* Style rules for img */
+img {
+    width: 400px;
+    height: 400px;
+}
+
+  /* styles rules for hover and image popup */
+
+  .image:hover {
+    transform: scale(1.1);
+  }
+  
+  .popup-image  {
+    position: fixed;
+    top:0; left:0;
+    background: rgba(0,0,0,.9);
+    height: 100%;
+    width: 100%;
+    z-index: 100%;
+    display: none;
+  }
+  
+
+  .popup-image span  {
+    position: absolute;
+    top:0; right:10px;
+    font-size: 60px;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+  }
+  
+
+  .popup-image img {
+    position: absolute;
+    top: 50%; left:50%;
+    transform: translate(-50%, -50%);
+    width:595px;
+    object-fit:cover;
+  }
+  
+  /*Desktop media query */
+  @media screen and (min-width: 1009px), print {
+
+
+    .title  {
+        height: 350px;
+    }
+
+    /*Style rules for sticky images */
+    .wrapper {
+        display: flex;
+      }
+    
+      .main {
+        width: 60%;
+        height: 125vh;
+        padding-left: 15%;
+        padding-right: 10%;
+        background-color: white;
+      }
+    
+      .main:first-child  {
+        padding-top: 6%;
+      }
+      
+      .sidebar {
+        height: 75vh;
+      }
+      
+    
+      .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+    
+}
+
+/*Tablet media query */
+@media screen and (min-width: 785px), print {
+
+    .wrapper {
+        display: flex;
+      }
+    
+      .main {
+        width: 60%;
+        height: 125vh;
+    
+        background-color: white;
+      }
+    
+      .main:first-child  {
+        padding-top: 6%;
+      }
+      
+      .sidebar {
+        height: 75vh;
+      }
+      
+    
+      .sidebar {
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+      }
+    
+}

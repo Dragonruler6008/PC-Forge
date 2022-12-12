@@ -1,0 +1,30 @@
+This file will contain the specs (cpu, gpu, ram, ect.) for the computers in the gaming category branch
+
+BUDGET
+cpu: Intel Core i3-12100F 3.3 GHz Quad-Core Processor
+mobo: ASRock B660M Pro RS Micro ATX LGA1700 Motherboard
+ram: Silicon Power GAMING 16 GB (2 x 8 GB) DDR4-3200 CL16 Memory
+storage: Inland QN322 500 GB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive
+gpu: MSI Radeon RX 6600 MECH 2X 8G Radeon RX 6600 8 GB Video Card
+case: Fractal Design Focus G ATX Mid Tower Case
+psu: Cooler Master MasterWatt 550 550 W 80+ Bronze Certified Semi-modular ATX Power Supply
+
+MID-TIER
+cpu: AMD Ryzen 5 5800X3D 3.7 GHz 6-Core Processor
+cpu fan: ARCTIC Freezer 34 eSports DUO CPU Cooler
+mobo: ASRock B550 Phantom Gaming 4 ATX AM4 Motherboard
+ram: G.Skill Ripjaws V 16 GB (2 x 8 GB) DDR4-3600 CL16 Memory
+storage: Patriot P300 1 TB M.2-2280 PCIe 3.0 X4 NVME Solid State Drive
+gpu: MSI RX 6600 XT MECH 2X 8G OC Radeon RX 6600 XT 8 GB Video Card
+case: Antec DF700 FLUX ATX Mid Tower Case
+psu: Antec NeoECO Gold ZEN 700 W 80+ Gold Certified ATX Power Supply
+
+HIGH-END
+cpu: AMD Ryzen 5 7600X 4.7 GHz 6-Core Processor
+cpu fan: be quiet! Dark Rock Pro 4 50.5 CFM CPU Cooler
+mobo: Asus PRIME X670-P ATX AM5 Motherboard
+ram: G.Skill Flare X5 32 GB (2 x 16 GB) DDR5-6000 CL36 Memory
+storage: Kingston KC3000 1.024 TB M.2-2280 PCIe 4.0 X4 NVME Solid State Drive
+gpu: Nvidia RTX 4080 16GB
+case: NZXT H7 Flow ATX Mid Tower Case
+psu: FSP Group Hydro G Pro 1000 W 80+ Gold Certified Fully Modular ATX Power Supply
